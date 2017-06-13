@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+venv/
 env/
 build/
 develop-eggs/
@@ -24,6 +25,9 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# IDE PyCharm
+.idea/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -94,8 +98,24 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
+# Datasets
+Teste Total Audience D+7.tsv
+Teste Total Audience D+15.tsv
+Teste Total Audience D+30.tsv
+Teste Total Audience D+45.tsv
+Teste Total Audience.tsv
+Teste Total Audience.csv
 
-# mypy
-.mypy_cache/
+# JSON
+client_secret.json
+client_secret_578652111228.json
+client_secret_105712799767174727054.json
+storage.json
+
+# Others
+docs/
+DFPGloboProducao-237b0668bdbf.p12
+drive_download_file_a.py
+drive_download_file_b.py
+drive_download_file_c.py
+teste.py
