@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 venv/
+env/
 build/
 develop-eggs/
 dist/
@@ -46,7 +47,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*,cover
+*.cover
 .hypothesis/
 
 # Translations
@@ -92,6 +93,7 @@ ENV/
 
 # Spyder project settings
 .spyderproject
+.spyproject
 
 # Rope project settings
 .ropeproject
