@@ -3,7 +3,6 @@ Using API's from Google Analytics/Drive to extracting data unsampled
 (unsampled reports).
 
 ### How work
--------------
 The unsampled reports created are available to download on Google Drive.
 An unsampled report is submitted to Google Analytics by APIs.
 So, this report is processed by Google and then is available to download
@@ -12,7 +11,6 @@ To download this report from Google Drive also is used the APIs.
 In both cases, I'm using the [google-api-client](https://github.com/google/google-api-python-client) (for python).
 
 ### Requirements
-----------------
 - python==2.7
 - google-api-python-client==1.6.2
 - httplib2==0.10.3
@@ -22,7 +20,6 @@ In both cases, I'm using the [google-api-client](https://github.com/google/googl
 _You can use the following command:_ pip install -r requirements.txt
 
 ### Authentication
-------------------
 To submit an unsampled report to Google Analytics the API is
 authenticated using a service account.
 To download an unsampled report from Google Drive the API is
@@ -35,7 +32,6 @@ __These files were created for this specific project, but I can't share/
 public them here because contains confidential data.__
 
 ### The project
----------------
 - __get_profile_tvg.py__
 
 _Returns Analytics data for a view (profile) in GA, using the API.
@@ -67,7 +63,6 @@ _Download unsampled reports created in GA, using the API.
 The authentication method used by this script is user account._
 
 ### More information
---------------------
 For more details about how to use this APIs:
 - [Google Analytics](https://developers.google.com/analytics/)
 - [Google Drive](https://developers.google.com/drive/v3/web/about-sdk)
